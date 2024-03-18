@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace From_AutoCAD_to_SmartPlantPID.PipingBreaks
+{
+    public class AllTypesBreak : BasicBreak
+    {
+        public AllTypesBreak() { }
+        public AllTypesBreak(double[] coordinates) 
+        {
+            FormAttribytes(coordinates);
+        }
+    }
+}
